@@ -1,8 +1,22 @@
+@font-face {
+	font-family: 'Kormelik';
+	font-style: normal;
+	src: url('../fonts/WT_Kormelink_Roman.ttf');
+}
+
+@font-face {
+	font-family: 'Kormelik';
+	font-style: italic;
+	src: url('../fonts/WT_Kormelink_Italic.ttf');
+}
+
 body {
 	margin: 0;
 	background: black;
 	color: white;
-	font-family: 'Helvetica', sans-serif;
+	font-family: 'Kormelik', 'Times New Roman', Times, serif;
+	font-size: 18px;
+	letter-spacing: 0.01vw;
 }
 
 a {
@@ -23,6 +37,11 @@ h1 {
 	font-size: 1em;
 	font-weight: normal;
 	display: inline;
+}
+
+#upcoming,
+#past {
+	margin-top: 1.25em;
 }
 
 img {
