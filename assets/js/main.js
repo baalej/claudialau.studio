@@ -1,5 +1,5 @@
 let init = () => {
-  console.log('Document ready');
+  console.log('alejandroba.com');
 }
 
 document.addEventListener('DOMContentLoaded', init, false);
